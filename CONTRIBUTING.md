@@ -25,7 +25,19 @@ Thank you for your interest in contributing! This document provides guidelines a
 
 This project uses Python. Make sure you have Python 3 installed on your system.
 
-To verify your setup, run:
+We recommend using [uv](https://docs.astral.sh/uv/) as the Python package manager and project tool. To get started:
+
+1. Install uv (if not already installed):
+   ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+2. Run the project:
+   ```bash
+   uv run test.py
+   ```
+
+Alternatively, you can run the project directly with Python:
 ```bash
 python3 test.py
 ```
