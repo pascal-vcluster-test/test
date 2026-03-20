@@ -27,7 +27,7 @@ This project uses Python. Make sure you have Python 3 installed on your system.
 
 To verify your setup, run:
 ```bash
-python test.py
+python3 test.py
 ```
 
 ## How to Contribute
